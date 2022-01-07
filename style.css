@@ -1,0 +1,241 @@
+@font-face {
+    font-family: robotoblack;
+    src: url(roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: robotobold;
+    src: url(roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotolight;
+    src: url(roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotomedium;
+    src: url(roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: robotoregular;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotothin;
+    src: url(roboto/Roboto-Thin.ttf)
+}
+body{
+	background-color: #EFEFEF;
+    background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+.top{
+    margin: 0 auto;
+    width: auto;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: robotoregular;
+    font-size: 20px;
+    margin: 0 25px;
+    color: #FFDB67;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    color: #EFEFEF;
+}
+header{
+    height: 90px;
+    background: #062827;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 4px 10px;
+}
+.logo{
+    width: 50px;
+    float: left;
+   margin-bottom: 5%;
+
+}
+.column2 {
+    float: left;
+    width: 40%;
+    padding: 5px;
+    margin-top: 150px;
+  }
+  /* Clearfix (clear floats) */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.ftitle h1{
+      font-family: robotoblack;
+      padding-left: 100px;
+      padding-top: 50px;
+      
+
+  }
+.mainF{
+    margin-left: 160px;
+}
+.cards{
+    height: 180px;
+    width: 140px;
+    float: left;
+    background-color: white ;
+    border-radius: 45px;
+    margin-left: 60px;
+    box-shadow: 1px  black;
+}
+.cards:hover{
+    box-shadow: 2px 2px 6px rgb(54, 54, 54);
+}
+
+.Fimage img{
+    width: 45px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.Fititle{
+    text-align: center;
+    font-family: robotoregular ;
+}
+.box{
+    display: inherit;
+    font-family: robotoregular;
+}
+.imgbx img{
+    float: right;
+    padding-right: 30px;
+    padding-top: 140px;
+    padding-left: 30px;
+}
+.content{
+    padding-top: 250px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.btn{
+  border: none;
+  color: #e9e9e9;
+  padding: 18px 21px;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+
+}
+.warning {background-color: #062827;} /* Orange */
+.warning:hover {background: #FFDB67;color: #000000;}
+
+.Ptitle{
+    font-family: robotoblack;
+    text-align: center;
+    padding-top: 100px;
+}
+.Pcard{
+    width:400px;
+    height: 350px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 450px;
+    margin-bottom:30px;
+    padding: 20px;
+   
+}
+.Pcard:hover{
+    box-shadow: 2px 2px 6px rgb(54, 54, 54);
+}
+.Pimage img{
+    width: 200px;
+    padding-left: 100px;
+}
+.FPtitle{
+    font-family: robotoregular;
+    padding-left: 12px;
+}
+.Pstar{
+    position: absolute;
+    top: 265.5%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+.Pstar2{
+    position: absolute;
+    top: 335.5%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+.Pstar3{
+    position: absolute;
+    top: 395.9%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+.Pstar4{
+    position: absolute;
+    top: 463.8%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+.Price{
+    font-family: robotoregular;
+    padding-left: 15px;
+}
+.des{
+    font-family: robotomedium;
+    font-size: large;
+    padding-left: 20px;
+    color: gray;
+    text-align: center;
+}
+.checked{
+    color: orange;
+}
+.foot{
+    position: absolute;
+}
+.foot h1{
+    font-family: robotoblack;
+    font-size: 35px;
+    color: #ffffff;
+    padding-left: 540px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.lastd{
+    margin-left: 315px;
+    margin-top: 70px;
+}
+.lastd a{
+    text-decoration: none;
+    font-family: robotoregular;
+    font-size: 20px;
+    color: #E5E5E5;
+    margin: 10px;
+}
+a:hover{
+    color: #FFDB67;
+}
+.vl1{
+    border-left: 2px solid #E5E5E5;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    
+}
